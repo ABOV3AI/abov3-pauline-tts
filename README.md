@@ -163,7 +163,7 @@ pip install onnx==1.16.0
 python server.py
 ```
 
-**First run:** The server will download the Chatterbox model (~2-3 GB). This is automatic and one-time only.
+**First run:** The server will download the AI model (~2-3 GB). This is automatic and one-time only.
 
 Access the UI at `http://localhost:8004`
 
@@ -172,7 +172,7 @@ Access the UI at `http://localhost:8004`
 All settings are managed through `config.yaml` in the project root:
 
 *   **server:** `host`, `port`, logging
-*   **model:** `repo_id` (ResembleAI/chatterbox)
+*   **model:** `repo_id` (AI model repository)
 *   **tts_engine:** `device` (auto/cuda/mps/cpu), voice paths
 *   **generation_defaults:** Optimized settings (temperature: 0.6, exaggeration: 0.8, cfg_weight: 0.7)
 *   **ui:** Title, language select, voice dropdown limits
@@ -291,28 +291,8 @@ Contributions welcome! Open an issue or submit a Pull Request.
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) file for details.
 
-## 🙏 Attribution & Acknowledgements
+## 🔧 Core Technologies
 
-### Original Project
-
-**ABOV3 Pauline TTS** is a fork/rebrand of [Chatterbox TTS Server](https://github.com/devnen/Chatterbox-TTS-Server) by [devnen](https://github.com/devnen).
-
-**Original Project:**
-*   Repository: https://github.com/devnen/Chatterbox-TTS-Server
-*   Author: devnen
-*   License: MIT License
-
-### ABOV3 Modifications
-
-*   Rebranded as ABOV3 Pauline TTS
-*   Optimized default configuration for production (calm, professional voice)
-*   Enhanced documentation and deployment guides
-*   Custom voice presets and examples
-*   Docker image published to GitHub Container Registry
-
-### Core Technologies
-
-*   **TTS Model:** [Chatterbox TTS](https://github.com/resemble-ai/chatterbox) by [Resemble AI](https://www.resemble.ai/)
 *   **Framework:** [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/)
 *   **ML Libraries:** [PyTorch](https://pytorch.org/), [Hugging Face](https://huggingface.co/)
 *   **Audio:** [SoundFile](https://python-soundfile.readthedocs.io/), [WaveSurfer.js](https://wavesurfer.xyz/)

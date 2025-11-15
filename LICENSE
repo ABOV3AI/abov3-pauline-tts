@@ -1,18 +1,6 @@
 MIT License
 
-================================================================================
-ABOV3 Pauline TTS
 Copyright (c) 2025 ABOV3AI
-
-ABOV3 Pauline TTS is a fork/rebrand of Chatterbox TTS Server with optimized
-configuration for production deployment, enhanced documentation, and custom
-voice presets.
-
-Original Project: https://github.com/devnen/Chatterbox-TTS-Server
-================================================================================
-
-Chatterbox TTS Server
-Copyright (c) 2025 devnen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -2,7 +2,7 @@ FROM nvidia/cuda:12.8.1-runtime-ubuntu22.04
 
 # Metadata labels for ABOV3 Pauline TTS
 LABEL org.opencontainers.image.title="ABOV3 Pauline TTS"
-LABEL org.opencontainers.image.description="High-quality text-to-speech server with OpenAI-compatible API, voice cloning, and audiobook generation powered by Chatterbox TTS"
+LABEL org.opencontainers.image.description="Professional voice synthesis server with OpenAI-compatible API, voice cloning, and audiobook generation"
 LABEL org.opencontainers.image.vendor="ABOV3AI"
 LABEL org.opencontainers.image.url="https://github.com/ABOV3AI/abov3-pauline-tts"
 LABEL org.opencontainers.image.source="https://github.com/ABOV3AI/abov3-pauline-tts"
