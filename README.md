@@ -1,16 +1,16 @@
-# ABOV3 Pauline TTS Server: OpenAI-Compatible API with Web UI, Large Text Handling & Built-in Voices
+# ABOV3 Pauline TTS: Professional Voice Synthesis Platform
 
-**Self-host high-quality text-to-speech with voice cloning and audiobook generation powered by the [Chatterbox TTS model](https://github.com/resemble-ai/chatterbox) by Resemble AI.**
+**Enterprise-grade text-to-speech server with voice cloning, audiobook generation, and OpenAI-compatible API.**
 
-> 🎙️ **ABOV3 Pauline** provides professional-quality voice synthesis with an intuitive interface, intelligent text processing, and production-ready deployment options.
+> 🎙️ **ABOV3 Pauline** delivers crystal-clear, professional voice synthesis optimized for production deployment. Features include intelligent text processing, 28 production-ready voices, and seamless integration with your existing workflows.
 
-This server builds upon the [Chatterbox TTS model by Resemble AI](https://github.com/resemble-ai/chatterbox) with enhanced features for production deployment. Runs accelerated on NVIDIA (CUDA), AMD (ROCm), and Apple Silicon (MPS) GPUs, with automatic fallback to CPU.
+Accelerated on NVIDIA (CUDA), AMD (ROCm), and Apple Silicon (MPS) GPUs with automatic fallback to CPU.
 
 [![Project Link](https://img.shields.io/badge/GitHub-ABOV3AI/abov3--pauline--tts-blue?style=for-the-badge&logo=github)](https://github.com/ABOV3AI/abov3-pauline-tts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
 [![Framework](https://img.shields.io/badge/Framework-FastAPI-green.svg?style=for-the-badge)](https://fastapi.tiangolo.com/)
-[![Model Source](https://img.shields.io/badge/Model-ResembleAI/chatterbox-orange.svg?style=for-the-badge)](https://github.com/resemble-ai/chatterbox)
+[![ABOV3AI](https://img.shields.io/badge/ABOV3-Pauline_TTS-orange.svg?style=for-the-badge)](https://github.com/ABOV3AI/abov3-pauline-tts)
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg?style=for-the-badge)](https://www.docker.com/)
 [![CUDA Compatible](https://img.shields.io/badge/NVIDIA_CUDA-Compatible-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-zone)
 [![ROCm Compatible](https://img.shields.io/badge/AMD_ROCm-Compatible-ED1C24?style=for-the-badge&logo=amd&logoColor=white)](https://rocm.docs.amd.com/)
@@ -19,9 +19,9 @@ This server builds upon the [Chatterbox TTS model by Resemble AI](https://github
 
 ---
 
-## 🗣️ Overview: Production-Ready TTS
+## 🗣️ Overview
 
-ABOV3 Pauline TTS Server provides enterprise-grade text-to-speech capabilities with voice cloning, large text processing, and audiobook generation. Built on the powerful Chatterbox TTS model, it offers:
+ABOV3 Pauline TTS provides enterprise-grade text-to-speech capabilities with voice cloning, large text processing, and audiobook generation. Key features include:
 
 *   A **modern Web UI** for easy experimentation, voice management, and generation parameter tuning
 *   **Multi-Platform Acceleration:** Full support for **NVIDIA (CUDA)**, **AMD (ROCm)**, and **Apple Silicon (MPS)** GPUs with automatic **CPU** fallback
@@ -320,4 +320,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) file 
 
 ---
 
-**Developed by [ABOV3AI](https://github.com/ABOV3AI) | Based on Chatterbox TTS Server**
+**Developed by [ABOV3AI](https://github.com/ABOV3AI) | Professional Voice Synthesis Platform**
