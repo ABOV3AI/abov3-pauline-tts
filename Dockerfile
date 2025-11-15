@@ -1,5 +1,15 @@
 FROM nvidia/cuda:12.8.1-runtime-ubuntu22.04
 
+# Metadata labels for ABOV3 Pauline TTS
+LABEL org.opencontainers.image.title="ABOV3 Pauline TTS"
+LABEL org.opencontainers.image.description="High-quality text-to-speech server with OpenAI-compatible API, voice cloning, and audiobook generation powered by Chatterbox TTS"
+LABEL org.opencontainers.image.vendor="ABOV3AI"
+LABEL org.opencontainers.image.url="https://github.com/ABOV3AI/abov3-pauline-tts"
+LABEL org.opencontainers.image.source="https://github.com/ABOV3AI/abov3-pauline-tts"
+LABEL org.opencontainers.image.documentation="https://github.com/ABOV3AI/abov3-pauline-tts/blob/main/README.md"
+LABEL org.opencontainers.image.licenses="MIT"
+LABEL org.opencontainers.image.base.name="nvidia/cuda:12.8.1-runtime-ubuntu22.04"
+
 ARG RUNTIME=nvidia
 
 # Set environment variables
