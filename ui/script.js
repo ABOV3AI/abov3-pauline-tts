@@ -435,7 +435,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
     }
 
-    function applyPreset(presetData, showNotif = true) {
+    function applyPreset(presetData, showNotif = true, isUserInteraction = false) {
         if (!presetData) return;
         if (textArea && presetData.text !== undefined) {
             textArea.value = presetData.text;
